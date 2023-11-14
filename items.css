@@ -1,0 +1,185 @@
+body{
+	background: white;
+	margin: 0;
+	font-size: 14px;
+    line-height: 1.5em;
+    font-family: p22-underground, montserrat ,sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.10em;
+    color: #000;
+}
+
+.header{
+        width: 100%;
+        position: fixed;
+        margin-top: 50px;
+        padding-left: 50px;
+        z-index: 5;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: .17em;
+    font-family: Palatino;
+    color: #000;
+    text-decoration: none;
+}
+
+.content-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+    color: black;
+    position: fixed;
+    z-index: 5;
+    padding-top: 2rem;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin-right: 2rem;
+    margin-top: 0;
+    padding: 0;
+   
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+
+}
+
+#collectionlist{
+    
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+}
+
+
+.left-block{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 100vh;
+}
+
+.first-picture{
+    max-height: 650px;
+}
+
+.second-picture{
+    max-height: 650px;
+}
+
+.third-picture{
+    max-height: 650px;
+}
+
+.right-block{
+    flex: 1;
+    
+   }
+
+.product-description-container{
+    top: 45%;
+    position: sticky;
+    height: 300px;
+    padding-left: 50px;
+    /* background: lightblue; */
+    width: 100%;
+}
+
+
+.product-title{
+    margin-left:0 ;
+    margin-bottom: 50px;
+}
+
+.product-title p{
+    margin: 0;
+    text-align: left;
+
+}
+
+
+@media only screen and (min-width: 767px){
+    .wrapper{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .content-block{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .swiper{
+    height: 60vh;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper header{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 33px;
+    z-index: 10;
+}
+
+.wrapper header h1{
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 50;
+    letter-spacing: .19em;
+    font-family: Palatino;
+    color: #000;
+}
+
+
+.wrapper menu{
+    padding-top: 1 rem;
+    padding-left: .5rem;
+    color: black;
+    position: fixed;
+    z-index: 5}
+
+.wrapper menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 9px;   }
+
+
+.description-box{
+    
+    min-height: 40vh;
+    width: 100%;
+
+}
+
+.product-description{
+padding-top: 30px;
+}
+
+}
+
+

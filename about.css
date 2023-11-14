@@ -1,0 +1,49 @@
+body{
+	background: white;
+	margin: 0;
+	font-size: 14px;
+    line-height: 1.5em;
+    font-family: p22-underground, montserrat ,sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.10em;
+    color: #000;
+}
+
+.content-box{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header{
+        width: 100%;
+        position: fixed;
+        text-align: center;
+        margin-top: 50px;
+        
+}
+
+.header h1{
+    margin: 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: .17em;
+    font-family: Palatino;
+    color: #000;
+    text-decoration: none;
+}
+
+.text-box{
+    padding-top: calc(50px + 10%);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 768px){
+        .text-box{ padding-top: calc(50px + 50%) }
+
+    }
